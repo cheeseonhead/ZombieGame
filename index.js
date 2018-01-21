@@ -5,6 +5,8 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 
-app.listen(16795, function () {
-  console.log('Example app listening on port 16795!')
+var port = 16795;
+
+app.listen(port, function () {
+  console.log('Example app listening on port ' + port + '!')
 })
